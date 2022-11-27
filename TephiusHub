@@ -1,0 +1,61 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Tephius Script Hub", "BloodTheme")
+
+-- COUNTERBLOX --
+local CounterBlox = Window:NewTab("Counter Blox")
+local CounterBloxSection = CounterBlox:NewSection("Counter Blox Remastered")
+
+CounterBloxSection:NewButton("Vape V4", "CounterBlox Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+CounterBloxSection:NewButton("BusWare", "CounterBlox Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/vbVE6W69"))()
+end)
+
+CounterBloxSection:NewButton("SoggyWare", "CounterBlox Script", function()
+    loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
+end)
+
+
+-- JAILBREAK --
+local JailBreak = Window:NewTab("JailBreak")
+local JailBreakSection = JailBreak:NewSection("JailBreak")
+
+
+JailBreakSection:NewButton("Ice Tray V3", "JailBreak Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/icetray3/main/latest.lua"))()
+end)
+
+JailBreakSection:NewButton("JailMonkey", "JailBreak Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
+end)
+
+JailBreakSection:NewButton("Vynixius", "JailBreak Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+end)
+
+
+-- PHANTOM FORCES --
+local PhantomForces = Window:NewTab("Phantom Forces")
+local PhantomForcesSection = PhantomForces:NewSection("Phantom Forces")
+
+PhantomForcesSection:NewButton("Strawhook", "Phantom Forces Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Sirius/request/Loader'))()
+end)
+
+PhantomForcesSection:NewButton("Mewwo", "Phantom Forces Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yabujin/mewwo-hub/main/script.lua"))()
+end)
+
+PhantomForcesSection:NewButton("Ski", "Phantom Forces Script", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
+end)
+
+
+
+-- CREDITS --
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits")
+
+CreditsSection:NewLabel("Created by C14ut (Tephius)")
